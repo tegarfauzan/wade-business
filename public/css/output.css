@@ -982,11 +982,6 @@ video {
   padding-bottom: 10px;
 }
 
-.py-\[13px\] {
-  padding-top: 13px;
-  padding-bottom: 13px;
-}
-
 .py-\[43px\] {
   padding-top: 43px;
   padding-bottom: 43px;
@@ -1114,6 +1109,10 @@ video {
 
 .leading-\[62px\] {
   line-height: 62px;
+}
+
+.leading-\[\] {
+  line-height: ;
 }
 
 .-tracking-\[1px\] {
