@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -582,12 +586,18 @@ video {
   top: 3px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-10 {
   z-index: 10;
+}
+
+.mx-\[21px\] {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.mx-\[22px\] {
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .mx-\[33px\] {
@@ -598,21 +608,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-\[22px\] {
-  margin-left: 22px;
-  margin-right: 22px;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-\[21px\] {
-  margin-left: 21px;
-  margin-right: 21px;
 }
 
 .mb-1 {
@@ -695,14 +690,6 @@ video {
   margin-top: 56px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -715,28 +702,12 @@ video {
   height: 2.75rem;
 }
 
-.w-\[139px\] {
-  width: 139px;
-}
-
-.w-\[147px\] {
-  width: 147px;
-}
-
 .w-\[151px\] {
   width: 151px;
 }
 
-.w-\[167px\] {
-  width: 167px;
-}
-
 .w-\[168px\] {
   width: 168px;
-}
-
-.w-\[184px\] {
-  width: 184px;
 }
 
 .w-\[72px\] {
@@ -775,10 +746,6 @@ video {
   max-width: 640px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -795,6 +762,11 @@ video {
   justify-content: space-between;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
@@ -808,11 +780,6 @@ video {
 .gap-x-\[15px\] {
   -moz-column-gap: 15px;
        column-gap: 15px;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -849,6 +816,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(66px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(66px * var(--tw-space-y-reverse));
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
@@ -925,10 +896,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -990,11 +957,6 @@ video {
   padding-right: 42px;
 }
 
-.px-\[47px\] {
-  padding-left: 47px;
-  padding-right: 47px;
-}
-
 .px-\[96px\] {
   padding-left: 96px;
   padding-right: 96px;
@@ -1050,16 +1012,8 @@ video {
   padding-bottom: 43px;
 }
 
-.pb-\[54px\] {
-  padding-bottom: 54px;
-}
-
 .pb-\[69\.34px\] {
   padding-bottom: 69.34px;
-}
-
-.pl-4 {
-  padding-left: 1rem;
 }
 
 .pl-\[10px\] {
@@ -1107,6 +1061,10 @@ video {
   font-size: 10px;
 }
 
+.text-\[56px\] {
+  font-size: 56px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1120,10 +1078,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[56px\] {
-  font-size: 56px;
 }
 
 .font-bold {
@@ -1158,10 +1112,6 @@ video {
   line-height: 32px;
 }
 
-.leading-\[\] {
-  line-height: ;
-}
-
 .leading-\[62px\] {
   line-height: 62px;
 }
@@ -1174,13 +1124,14 @@ video {
   letter-spacing: 0.6px;
 }
 
-.-tracking-\[1\%\] {
-  letter-spacing: -1%;
-}
-
 .text-\[\#1C1C1C\] {
   --tw-text-opacity: 1;
   color: rgb(28 28 28 / var(--tw-text-opacity));
+}
+
+.text-\[\#2B71FA\] {
+  --tw-text-opacity: 1;
+  color: rgb(43 113 250 / var(--tw-text-opacity));
 }
 
 .text-\[\#F15757\] {
@@ -1205,23 +1156,6 @@ video {
   color: rgba(28,28,28,0.8);
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#2B71FA\] {
-  --tw-text-opacity: 1;
-  color: rgb(43 113 250 / var(--tw-text-opacity));
-}
-
-.text-\[rgba\] {
-  color: rgba;
-}
-
-.text-\[rgba\(28\2c 28\2c 28\2c 0\)\] {
-  color: rgba(28,28,28,0);
-}
-
 .shadow-layered-orange {
   --tw-shadow: 
           0 43.31px 17.68px 0 rgba(251, 177, 136, 0.01),
@@ -1236,6 +1170,18 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.scroll-invisible::-webkit-scrollbar {
+  display: none;
+  /* Sembunyikan scrollbar */
+}
+
+/* Menyembunyikan scrollbar pada Firefox */
+
+.scroll-invisible {
+  scrollbar-width: none;
+  /* Sembunyikan scrollbar */
 }
 
 .placeholder\:font-space-grotesk::-moz-placeholder {
