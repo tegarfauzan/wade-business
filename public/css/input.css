@@ -28,9 +28,3 @@
         transform: translateX(0);
     }
 }
-
-@layer components {
-    .pause-animate {
-        animation-play-state: paused; /* Menghentikan animasi */
-    }
-}

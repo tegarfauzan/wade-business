@@ -578,6 +578,10 @@ video {
   top: 0px;
 }
 
+.top-\[66\.73px\] {
+  top: 66.73px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -674,6 +678,14 @@ video {
   margin-top: 10px;
 }
 
+.mt-\[29px\] {
+  margin-top: 29px;
+}
+
+.mt-\[40\.27px\] {
+  margin-top: 40.27px;
+}
+
 .mt-\[56px\] {
   margin-top: 56px;
 }
@@ -696,10 +708,6 @@ video {
 
 .w-\[151px\] {
   width: 151px;
-}
-
-.w-\[168px\] {
-  width: 168px;
 }
 
 .w-\[72px\] {
@@ -871,6 +879,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -911,19 +923,6 @@ video {
   border-color: rgba(28,28,28,0.1);
 }
 
-.border-\[\] {
-  border-color: ;
-}
-
-.border-\[\#\] {
-  border-color: #;
-}
-
-.border-\[\#f15757\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(241 87 87 / var(--tw-border-opacity));
-}
-
 .bg-\[\#DAE1E9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(218 225 233 / var(--tw-bg-opacity));
@@ -958,6 +957,11 @@ video {
   --tw-gradient-to: #EFEFF6 var(--tw-gradient-to-position);
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -978,6 +982,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-\[14\.14px\] {
+  padding-left: 14.14px;
+  padding-right: 14.14px;
 }
 
 .px-\[18px\] {
@@ -1030,6 +1039,11 @@ video {
   padding-bottom: 43px;
 }
 
+.py-\[7\.07px\] {
+  padding-top: 7.07px;
+  padding-bottom: 7.07px;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1062,12 +1076,20 @@ video {
   padding-left: 15px;
 }
 
-.pl-\[22px\] {
-  padding-left: 22px;
+.pl-\[18px\] {
+  padding-left: 18px;
 }
 
 .pl-\[26px\] {
   padding-left: 26px;
+}
+
+.pl-\[65px\] {
+  padding-left: 65px;
+}
+
+.pl-\[82px\] {
+  padding-left: 82px;
 }
 
 .pr-1 {
@@ -1246,11 +1268,6 @@ video {
   }
 }
 
-.group\/slider:hover .group-hover\/slider\:pause-animate {
-  animation-play-state: paused;
-  /* Menghentikan animasi */
-}
-
 .placeholder\:font-space-grotesk::-moz-placeholder {
   font-family: Space Grotesk, sans-serif;
 }
@@ -1275,20 +1292,6 @@ video {
 
 .placeholder\:text-\[rgba\(28\2c 28\2c 28\2c 0\.4\)\]::placeholder {
   color: rgba(28,28,28,0.4);
-}
-
-.hover\:border:hover {
-  border-width: 1px;
-}
-
-.hover\:border-\[\#f15757\]:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(241 87 87 / var(--tw-border-opacity));
-}
-
-.hover\:shadow-inset:hover {
-  box-shadow: inset 0 0 0 4px #f15757;
-  /* Menggunakan warna #F15757 */
 }
 
 .focus\:outline-none:focus {
