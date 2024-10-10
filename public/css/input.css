@@ -10,3 +10,27 @@
 .scroll-invisible {
     scrollbar-width: none; /* Sembunyikan scrollbar */
 }
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideToR {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@layer components {
+    .pause-animate {
+        animation-play-state: paused; /* Menghentikan animasi */
+    }
+}
